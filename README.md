@@ -1,5 +1,10 @@
-# dotfiles
-Просто мои дотфайлы и все..
+# dotfiles-hyprland
+Просто мои дотфайлы для hyprland и все..
 
+# Установка
+```bash
+chmod +x install.sh
+./install.sh
+```
 
 ![image](https://github.com/OverLessArtem/dotfiles/blob/main/kotik.jpg?raw=true)
