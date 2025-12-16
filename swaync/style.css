@@ -1,0 +1,153 @@
+@define-color base00 #282828; @define-color base01 #3c3836; @define-color base02 #504945; @define-color base03 #665c54;
+@define-color base04 #bdae93; @define-color base05 #d5c4a1; @define-color base06 #ebdbb2; @define-color base07 #fbf1c7;
+@define-color base08 #fb4934; @define-color base09 #fe8019; @define-color base0A #fabd2f; @define-color base0B #b8bb26;
+@define-color base0C #8ec07c; @define-color base0D #83a598; @define-color base0E #d3869b; @define-color base0F #d65d0e;
+
+* {
+    font-family: "Noto Sans";
+    font-size: 10pt;
+    transition: 0.2s ease-in-out;
+}
+
+.control-center {
+  background: @base00;
+  border: none;
+  border-left: 5px solid @base0D;
+  border-radius: 0;
+  color: @base05;
+  padding: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.floating-notifications.background .notification-row .notification-background {
+  background: @base00;
+  border: 1px solid @base0D;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  margin: 6px;
+  color: @base05;
+}
+
+.floating-notifications.background .notification-row {
+    background: transparent;
+}
+
+.notification-content {
+  background: transparent;
+  padding: 8px;
+}
+
+.summary {
+  font-weight: bold;
+  color: @base07;
+  font-size: 11pt;
+}
+
+.body {
+  color: @base06;
+}
+
+.time {
+  color: @base04;
+  font-size: 9pt;
+}
+
+progress, progressbar, trough {
+  border-radius: 12px;
+  min-height: 6px;
+}
+
+trough {
+  background: @base01;
+}
+
+.notification.critical progress { background: @base08; }
+.notification.low progress, .notification.normal progress { background: @base0B; }
+
+.notification.critical { border-color: @base08; }
+
+.notification-action {
+  color: @base05;
+  background: @base02;
+  border: none;
+  border-radius: 8px;
+  padding: 4px 8px;
+  margin-top: 6px;
+}
+
+.notification-action:hover {
+  background: @base03;
+  color: @base07;
+}
+
+.close-button {
+  background: transparent;
+  color: @base08;
+  border-radius: 100%;
+  margin: 0;
+  padding: 4px;
+  border: none;
+  text-shadow: none;
+  box-shadow: none;
+}
+
+.close-button:hover {
+  background: @base02;
+  color: @base08;
+}
+
+.widget-title, .widget-dnd, .widget-mpris {
+  background: @base01;
+  border-radius: 12px;
+  padding: 8px;
+  margin: 8px 4px;
+  border: 1px solid @base02;
+}
+
+.widget-title > button {
+  background: @base02;
+  border: none;
+  color: @base05;
+  border-radius: 8px;
+  padding: 4px 12px;
+}
+
+.widget-title > button:hover {
+  background: @base08;
+  color: @base00;
+}
+
+.widget-mpris .widget-mpris-player {
+  background: transparent;
+  padding: 0;
+  border: none;
+}
+
+.widget-mpris .widget-mpris-player > box > button {
+  border-radius: 100%;
+  background: @base02;
+  color: @base05;
+  margin: 0 4px;
+  padding: 6px;
+  border: none;
+}
+
+.widget-mpris .widget-mpris-player > box > button:hover {
+  background: @base0D;
+  color: @base00;
+}
+
+.widget-dnd > switch {
+  background: @base02;
+  border-radius: 12px;
+  border: none;
+}
+
+.widget-dnd > switch:checked {
+  background: @base0B;
+}
+
+.widget-dnd > switch slider {
+  background: @base07;
+  border-radius: 100%;
+}
