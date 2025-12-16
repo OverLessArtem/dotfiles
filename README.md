@@ -8,4 +8,4 @@ chmod +x install.sh
 ```
 
 # Котики 
-![image](https://github.com/OverLessArtem/dotfiles/blob/main/kotik.jpg?raw=true) ![image](https://github.com/OverLessArtem/dotfiles/blob/main/kotik2.jpg?raw=true)
+<img src="https://github.com/OverLessArtem/dotfiles/blob/main/kotik.jpg?raw=true" alt="Kotik" width="200"/> <img src="https://github.com/OverLessArtem/dotfiles/blob/main/kotik2.jpg?raw=true" alt="Kotik" width="200"/>
